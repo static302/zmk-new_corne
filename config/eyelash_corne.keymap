@@ -1,7 +1,14 @@
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
+
+#include <input/processors.dtsi>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/rgb.h>
 
 //
 // Layers
@@ -24,6 +31,14 @@
 #define THUMBS    36 37 38 39 40 41
 
 // Behavior Settings
+&mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
+
+&mmv {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <1>;
+    trigger-period-ms = <16>;
+};
+
 &caps_word {
   continue-list = <UNDERSCORE MINUS BACKSPACE>;
 };
@@ -111,11 +126,11 @@
         base_layer {
           bindings = <
 // ╭──────────┬─────────────┬───────────────────┬───────────────────┬───────────────────┬───────────────────╮ ╭───────────────────┬───────────────────┬───────────────────┬─────────────────┬───────────────┬──────────╮
-     &kp ESC      &kp Q            &kp W                &kp E              &kp R               &kp T                 &kp Y               &kp U               &kp I               &kp O             &kp P      &kp LBKT
+     &kp ESC      &kp Q            &kp W                &kp E              &kp R               &kp T XXX                &kp Y               &kp U               &kp I               &kp O             &kp P      &kp LBKT
 // ├──────────┼─────────────┼───────────────────┼───────────────────┼───────────────────┼───────────────────┤ ├───────────────────┼───────────────────┼───────────────────┼─────────────────┼───────────────┼──────────┤
-      SSHFT     &hrml LGUI A   &hrml LALT S        &hrml LCTRL D        &hrml LSHFT F          &kp G                 &kp H            &hrmr RSHFT J       &hrmr RCTRL K      &hrmr RALT L    &hrmr RGUI SEMI  &kp SQT
+      SSHFT     &hrml LGUI A   &hrml LALT S        &hrml LCTRL D        &hrml LSHFT F          &kp G XXX XXX XXX                &kp H            &hrmr RSHFT J       &hrmr RCTRL K      &hrmr RALT L    &hrmr RGUI SEMI  &kp SQT
 // ├──────────┼─────────────┼───────────────────┼───────────────────┼───────────────────┼───────────────────┤ ├───────────────────┼───────────────────┼───────────────────┼─────────────────┼───────────────┼──────────┤
-     &kp TAB      &kp Z             &kp X               &kp C               &kp V              &kp B                 &kp N               &kp M               &kp COMMA          &kp DOT          &kp FSLH     &kp GRAVE
+     &kp TAB      &kp Z             &kp X               &kp C               &kp V              &kp B  XXX XXX               &kp N               &kp M               &kp COMMA          &kp DOT          &kp FSLH     &kp GRAVE
 // ╰────────────────────────────────────────────────────────────────┼───────────────────┼───────────────────┤ ├───────────────────┼───────────────────┼────────────────────────────────────────────────────────────────╯
                                                        &tog RU          &lt NAV BSPC         MO_SL(NUM)          &lt FN ENTER        &lt SYM SPACE        &tog MOUSE
 //                                              ╰───────────────────┴───────────────────┴───────────────────╯ ╰───────────────────┴───────────────────┴───────────────────╯
