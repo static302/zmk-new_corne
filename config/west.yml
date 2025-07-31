@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: eyelash
+    - name: eyelash_corne
       remote: eyelash
       revision: main
   self:
