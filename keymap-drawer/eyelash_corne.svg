@@ -562,22 +562,21 @@ rect.held, rect.combo.held {
 <g transform="translate(348, 226) rotate(24.0)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
 <a href="#NUM">
-<text x="0" y="-4" class="key tap layer-activator">NUM</text>
-</a><a href="#NUM">
 <text x="0" y="24" class="key hold layer-activator">NUM</text>
 </a></g>
 <g transform="translate(632, 224) rotate(-24.0)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
 <a href="#FN">
 <text x="0" y="24" class="key hold layer-activator">FN</text>
 </a></g>
 <g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 <a href="#SYM">
 <text x="0" y="24" class="key hold layer-activator">SYM</text>
 </a></g>
@@ -615,22 +614,6 @@ rect.held, rect.combo.held {
 <path d="M196,147 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="182" y="134" width="28" height="26" class="combo"/>
 <text x="196" y="147" class="combo tap">CUT</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="22" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
-</g>
-<g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="742" y="18" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="747" y="22" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="159" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 </g>
 </g>
@@ -1161,22 +1144,6 @@ rect.held, rect.combo.held {
 <path d="M196,147 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="182" y="134" width="28" height="26" class="combo"/>
 <text x="196" y="147" class="combo tap">CUT</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="22" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
-</g>
-<g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="742" y="18" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="747" y="22" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="159" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 </g>
 </g>
