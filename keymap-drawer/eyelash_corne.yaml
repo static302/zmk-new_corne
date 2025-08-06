@@ -396,8 +396,11 @@ combos:
 - p: [28, 41]
   k: {t: SYS, h: '$$mdi:gesture-tap-hold$$'}
   l: [BASE, NAV, RU, NUM, SYM, FN, MOUSE, SYS]
-- p: [17, 23]
+- p: [13, 27]
   k: $$mdi:alpha-w-box$$
+  l: [BASE, RU]
+- p: [17, 23]
+  k: LGUI
   l: [BASE, RU]
 - p: [30, 31]
   k: COPY
