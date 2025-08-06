@@ -66,7 +66,7 @@
 /*              ╰────────────┴────────────╯                         ╰─────────────┴─────────────╯              */
         ZMK_COMBO(syslayer,   &sl SYS,              28 41, ALL)
         ZMK_COMBO(caps_word,  &caps_word,           13 27, BASE RU)
-        ZMK_COMBO(lang,       &sk LGUI SPACE,       17 23, BASE RU)
+        ZMK_COMBO(lang,       &sk LGUI &kp SPACE,   17 23, BASE RU)
         ZMK_COMBO(copy,       &kp K_COPY,           30 31, BASE RU MOUSE)
         ZMK_COMBO(paste,      &kp K_PASTE,          31 32, BASE RU MOUSE)
         ZMK_COMBO(cut,        &kp K_CUT,            30 32, BASE RU MOUSE)
