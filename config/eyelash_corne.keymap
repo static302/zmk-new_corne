@@ -64,11 +64,12 @@
 /*  │ 28  29  30  31  32  33 │ 36  37  38  39  40  41 │ │ LB5 LB4 LB3 LB2 LB1 LB0 │ RB0 RB1 RB2 RB3 RB4 RB5 │  */
 /*  ╰───────────╮ 42  43  44 │ 45  46  47 ╭───────────╯ ╰───────────╮ LH2 LH1 LH0 │ RH0 RH1 RH2 ╭───────────╯  */
 /*              ╰────────────┴────────────╯                         ╰─────────────┴─────────────╯              */
-        ZMK_COMBO(syslayer,   &sl SYS,      28 41, ALL)
-        ZMK_COMBO(caps_word,  &caps_word,   17 23, BASE RU)
-        ZMK_COMBO(copy,       &kp K_COPY,   30 31, BASE RU MOUSE)
-        ZMK_COMBO(paste,      &kp K_PASTE,  31 32, BASE RU MOUSE)
-        ZMK_COMBO(cut,        &kp K_CUT,    30 32, BASE RU MOUSE)
+        ZMK_COMBO(syslayer,   &sl SYS,              28 41, ALL)
+        ZMK_COMBO(caps_word,  &caps_word,           13 27, BASE RU)
+        ZMK_COMBO(lang,       &kp LGUI &kp SPACE,   17 23, BASE RU)
+        ZMK_COMBO(copy,       &kp K_COPY,           30 31, BASE RU MOUSE)
+        ZMK_COMBO(paste,      &kp K_PASTE,          31 32, BASE RU MOUSE)
+        ZMK_COMBO(cut,        &kp K_CUT,            30 32, BASE RU MOUSE)
         /* ZMK_COMBO(del,        &kp DEL,      9 10,  BASE RU) */
         /* ZMK_COMBO(bspc,       &kp BSPC,     8 9,   BASE RU) */
         /* ZMK_COMBO(tab,        &kp TAB,      2 3,   BASE RU) */
