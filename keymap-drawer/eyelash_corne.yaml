@@ -400,7 +400,7 @@ combos:
   k: $$mdi:alpha-w-box$$
   l: [BASE, RU]
 - p: [17, 23]
-  k: {t: LGUI SPACE, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
   l: [BASE, RU]
 - p: [30, 31]
   k: COPY
