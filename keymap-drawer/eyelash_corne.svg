@@ -605,8 +605,7 @@ rect.held, rect.combo.held {
 <path d="M490,91 l-219,0" class="combo"/>
 <path d="M490,91 l219,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="78" width="28" height="26" class="combo"/>
-<text x="490" y="91" class="combo tap">LGUI</text>
-<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="482" y="87" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="481" y="82" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
@@ -1142,8 +1141,7 @@ rect.held, rect.combo.held {
 <path d="M490,91 l-219,0" class="combo"/>
 <path d="M490,91 l219,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="78" width="28" height="26" class="combo"/>
-<text x="490" y="91" class="combo tap">LGUI</text>
-<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="482" y="87" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="481" y="82" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
