@@ -67,9 +67,9 @@
         ZMK_COMBO(syslayer,   &sl SYS,              28 41, ALL)
         ZMK_COMBO(caps_word,  &caps_word,           13 27, BASE RU)
         ZMK_COMBO(lang,       &kp LG(SPACE),        17 23, BASE RU)
-        ZMK_COMBO(copy,       &kp K_COPY,           30 31, BASE RU MOUSE)
-        ZMK_COMBO(paste,      &kp K_PASTE,          31 32, BASE RU MOUSE)
-        ZMK_COMBO(cut,        &kp K_CUT,            30 32, BASE RU MOUSE)
+        ZMK_COMBO(copy,       &kp RC(INS),          30 31, BASE RU MOUSE)
+        ZMK_COMBO(paste,      &kp RS(INS),          31 32, BASE RU MOUSE)
+        ZMK_COMBO(cut,        &kp RC(X),            30 32, BASE RU MOUSE)
         /* ZMK_COMBO(del,        &kp DEL,      9 10,  BASE RU) */
         /* ZMK_COMBO(bspc,       &kp BSPC,     8 9,   BASE RU) */
         /* ZMK_COMBO(tab,        &kp TAB,      2 3,   BASE RU) */
@@ -103,7 +103,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <120>;
             bindings = <&kp>, <&sk>;
         };
 
@@ -173,7 +173,7 @@ ___ ___ ___ ___ ___ ___
 // ├───────┼────────────────┼───────────────────┼───────────────────┼───────────────────┼───────────────────┤ ├───────────────────┼───────────────────┼───────────────────┼───────────────────┼──────────────┼─────────┤
      &kp A       &kp B               &kp C               &kp D               &kp E              &kp F     XXX XXX   &kp SEMI              &kp N1             &kp N2              &kp N3          &kp FSLH     &kp STAR
 // ╰────────────────────────────────────────────────────────────────┼───────────────────┼───────────────────┤ ├───────────────────┼───────────────────┼────────────────────────────────────────────────────────────────╯
-                                                         XXX                 XXX                OOO                 &kp DOT             &kp N0             &kp COMMA
+                                                         XXX                 XXX                OOO                 &kp N0                &kp DOT            &kp COMMA
 //                                              ╰───────────────────┴───────────────────┴───────────────────╯ ╰───────────────────┴───────────────────┴───────────────────╯
           >;
           display-name = "NUM";
