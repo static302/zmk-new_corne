@@ -193,8 +193,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: ., s: '>'}
   - {t: '0', s: )}
+  - {t: ., s: '>'}
   - {t: ',', s: <}
   SYM:
   - '!'
@@ -403,11 +403,11 @@ combos:
   k: Gui+$$mdi:keyboard-space$$
   l: [BASE, RU]
 - p: [30, 31]
-  k: COPY
+  k: Ctl+INS
   l: [BASE, RU, MOUSE]
 - p: [31, 32]
-  k: PASTE
+  k: Sft+INS
   l: [BASE, RU, MOUSE]
 - p: [30, 32]
-  k: CUT
+  k: Ctl+X
   l: [BASE, RU, MOUSE]
